@@ -5,19 +5,19 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: white;
 }
 
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
+    background-color:black;
     color: #ffffff;
 }
 
 .header h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 30px;
 }
 
 .header h1 .seo {
@@ -152,4 +152,6 @@ p {
 }
 .digitalimage {
     max-width: 100%;
+    max-height: 50%;
+    float: right;
 }
