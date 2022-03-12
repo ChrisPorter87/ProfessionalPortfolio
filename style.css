@@ -51,11 +51,8 @@ p {
 }
 
 .hero {
-    height: 800px;
+    height: 200px;
     width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
     background-position: center;
 }
 
@@ -82,7 +79,6 @@ p {
     margin-right: 20px;
     padding: 20px;
     clear: both;
-    float: right;
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -150,8 +146,34 @@ p {
 .text-align {
     text-align: left;
 }
+.imagelink {
+    
+    max-width: 40%;
+    border: 5px solid #2589bd;
+    margin:5px;
+}
 .digitalimage {
-    max-width: 100%;
-    max-height: 50%;
-    float: right;
+    max-width: 82%;
+    display: inline-block;
+    border: 5px solid #2589bd;
+    
+}
+
+.placeholder {
+    max-width: 40%;
+    border: 5px solid #2589bd;
+    margin:5px;
+    height:40px;
+}
+.container {
+    position: relative;
+}
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    left: 6px;
+    background-color: rgb(100, 207, 226);
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
 }
