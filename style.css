@@ -110,7 +110,7 @@ p {
 .text-block {
   position: absolute;
   bottom: 20px;
-  left: 6px;
+  left: 120px;
   background-color: rgb(100, 207, 226);
   color: black;
   padding-left: 20px;
@@ -136,5 +136,26 @@ p {
 .aboutMetext {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  padding: 31px;
+}
+.sectionTitle {
+  float: left;
+  width: 100px;
+  border-right: 5px solid black;
+  margin: 1px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.sectionImages {
+  height: 863px;
+}
+.footer p {
+  display: flex;
   text-align: center;
 }
