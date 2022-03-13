@@ -96,6 +96,7 @@ p {
   max-width: 82%;
   display: inline-block;
   border: 5px solid #2589bd;
+  margin-top: 30px;
 }
 
 .placeholder {
@@ -153,7 +154,7 @@ p {
 }
 
 .sectionImages {
-  height: 863px;
+  height: 1115px;
 
   float: left;
   width: 100px;
