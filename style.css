@@ -57,17 +57,6 @@ p {
   background-position: center;
 }
 
-.float-left {
-  float: left;
-  margin-right: 25px;
-}
-
-.float-right {
-  display: flex;
-  margin-left: 25px;
-  float: right;
-}
-
 .content {
   width: 100%;
   margin: 0 auto;
@@ -76,76 +65,18 @@ p {
   justify-content: space-around;
 }
 
-.benefits {
-  margin-right: 20px;
-  padding: 20px;
-  clear: both;
-  width: 20%;
-  height: 100%;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #2589bd;
-  display: inline-block;
-}
-
-.benefit-lead,
-.benefit-brand,
-.benefit-cost {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-lead h3,
-.benefit-brand h3,
-.benefit-cost h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-.benefit-lead img,
-.benefit-cost img,
-.benefit-brand img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.site-benefits {
-  margin-right: 12px;
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.site-benefits img {
-  max-height: 200px;
-}
-.benefit-description h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
 .footer {
   padding: 30px;
   clear: both;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   text-align: center;
+  display: inline-block;
+  writing-mode: horizontal-tb;
 }
 
 .footer h2 {
   font-size: 20px;
-}
-.span1 {
-  display: inherit;
-  float: left;
-}
-.inlinecontent {
-  display: inherit;
-}
-
-.text-align {
-  text-align: left;
 }
 .imagelink {
   max-width: 40%;
@@ -184,4 +115,26 @@ p {
   color: black;
   padding-left: 20px;
   padding-right: 20px;
+}
+.text-block1 {
+  position: absolute;
+  bottom: 20px;
+  right: 6px;
+  background-color: rgb(100, 207, 226);
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.outerDiv {
+  float: left;
+  margin-right: 25px;
+  border-right: 5px solid black;
+}
+.footer a {
+  color: black;
+}
+.aboutMetext {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
 }
