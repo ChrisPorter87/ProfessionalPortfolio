@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: #ccebff;
 }
 
 .header {
@@ -71,7 +71,7 @@ p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   text-align: center;
-  display: inline-block;
+
   writing-mode: horizontal-tb;
 }
 
@@ -110,7 +110,7 @@ p {
 .text-block {
   position: absolute;
   bottom: 20px;
-  left: 120px;
+  left: 184px;
   background-color: rgb(100, 207, 226);
   color: black;
   padding-left: 20px;
@@ -154,8 +154,22 @@ p {
 
 .sectionImages {
   height: 863px;
+
+  float: left;
+  width: 100px;
+  border-right: 5px solid black;
+  margin: 34px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 .footer p {
   display: flex;
   text-align: center;
+  padding-left: 200px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
